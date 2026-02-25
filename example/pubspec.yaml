@@ -1,0 +1,20 @@
+name: flutter_log_handler_example
+description: Example app demonstrating flutter_log_handler usage.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_log_handler:
+    path: ../
+
+  dio: ^5.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
